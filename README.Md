@@ -27,6 +27,6 @@ GymPass style app
 # Requisitos não funcionais
 
 - [x] A senha do usuário precisa estar criptografada;
-- [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSql;
+- [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSql;
 - [ ] Todas as listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT;
