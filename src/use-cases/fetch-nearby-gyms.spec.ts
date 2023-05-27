@@ -24,12 +24,12 @@ describe('Fetch Nearby Gyms Use Case', () => {
       title: 'far gym',
       description: null,
       phone: null,
-      latitude: -5.4423411,
-      longitude: -45.3120794,
+      latitude: -7.5276538,
+      longitude: -46.0526632,
     });
     const { gyms } = await sut.execute({
-      userLatitude: -7.5276538,
-      userLongitude: -46.0526632,
+      userLatitude: -5.506135,
+      userLongitude: -45.2444861,
     });
 
     expect(gyms).toHaveLength(1);
